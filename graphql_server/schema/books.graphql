@@ -1,0 +1,6 @@
+"""여기에 설명을 준다 """
+type Book{
+    _id: String
+    title: String
+    author: String
+}

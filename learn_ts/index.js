@@ -1,0 +1,14 @@
+var title = 'text'; // string
+var count = 123; // number 
+var isActive = true; // boolean
+var list = [1, 2, 3]; //array
+var list2 = [1, 2, 3]; //array
+var empty = []; // empty array
+var count2 = ['text', 123]; // truple
+var titleLength = title.length; // 类型断言
+var titleLength2 = title.length; // 类型断言  jsx 冲突避免
+var xxx = 'string'; // union type
+var fn = function (props) { console.log(props); }; // function
+var son1 = 1;
+var son2 = 'text';
+var son3 = true;

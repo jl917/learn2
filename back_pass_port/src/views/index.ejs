@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+
+  <div class="row list">
+    <form class="col s12" id="form" method="POST" action="/login">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="id" type="text" class="validate" name="id">
+          <label for="id">账号</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate" name="pw">
+          <label for="password">密码</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <button  id="d" class="btn waves-effect waves-light block" type="submit">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+    
+    </div>
+  </div>
+
+
+</body>
+
+</html>

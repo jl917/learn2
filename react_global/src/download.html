@@ -1,0 +1,14 @@
+<script>
+var u = navigator.userAgent;
+var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adroid') > -1;
+var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+
+if(isAndroid){
+    alert("android")
+}else if(isiOS){
+    alert("ios")
+}else{
+    alert('모바일에서만 지원합니다.')
+    window.history.go(-1)
+}
+</script>

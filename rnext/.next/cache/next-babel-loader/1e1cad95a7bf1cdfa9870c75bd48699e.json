@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Link from 'next/link';\nexport default (() => __jsx(\"div\", null, \"Click\", ' ', __jsx(Link, {\n  href: \"/about\",\n  replace: true\n}, __jsx(\"a\", null, \"here\")), ' ', \"to read more\"));","map":null,"metadata":{},"sourceType":"module"}

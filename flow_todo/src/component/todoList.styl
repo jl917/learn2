@@ -1,0 +1,33 @@
+.todo_list{
+    li{
+        position: relative;
+        border-bottom:1px solid #eee;
+        padding:20px 20px 20px 50px;
+        box-sizing: border-box;
+        &.checked {
+            .cb{
+                background:#039be5
+            }
+            b{
+                color:#bbb
+                text-decoration: line-through
+            }
+        }
+        .cb{
+            display: block;
+            width: 15px;
+            height: 15px;
+            border-radius: 3px;
+            background: #eee;
+            position:absolute;
+            top:50%;
+            left:20px;
+            transform: translate(0 -50%)
+        }
+        b{
+            color:#555
+            font-weight:normal
+            font-size:20px;
+        }
+    }
+}

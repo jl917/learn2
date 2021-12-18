@@ -1,0 +1,10 @@
+body,ul,li{margin:0;padding:0;list-style: none;}
+
+.a li{
+    height:45px;
+    line-height:45px;
+    background:#fafafa;
+    box-sizing: border-box;
+    border-top:1px solid #eee;
+    padding-left:25px;
+}

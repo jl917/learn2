@@ -1,0 +1,11 @@
+# import Book from "./books.graphql"
+# import Mutation from "./mutation.graphql"
+
+type Query {
+    books : [Book]
+    """
+    findbook api
+    """
+    findbook(name:String): [Book]
+    hello : String
+} 

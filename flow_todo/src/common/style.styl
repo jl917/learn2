@@ -1,0 +1,115 @@
+/* Common */
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none
+}
+
+body, input, textarea, select, button, table {
+    font-size: 14px;
+    line-height: 1.25em
+}
+
+body.s, .s input, .s textarea, .s select, .s button, .s table {
+    font-family: Helvetica, sans-serif
+}
+
+body {
+    position: relative;
+    -webkit-text-size-adjust: none
+}
+
+img, fieldset {
+    border: 0
+}
+
+ul, ol {
+    list-style: none
+}
+
+em, address {
+    font-style: normal
+}
+
+a {
+    text-decoration: none
+}
+
+table {
+    border-collapse: collapse
+}
+
+hr {
+    display: none !important
+}
+
+.u_vc, .u_skip {
+    position: absolute;
+    z-index: -1;
+    font-size: 1px;
+    line-height: 1px;
+    color: transparent;
+    text-indent: -9999em
+}
+
+.hc {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 1px;
+    line-height: 1px;
+    color: transparent;
+    text-indent: -9999em
+}
+
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+}
+
+#content {
+    clear: both;
+    width: 100%
+}
+
+#content::after {
+    display: block;
+    clear: both;
+    height: 1px;
+    margin-top: -1px;
+    content: ''
+}
+
+/* Form */
+input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    display: none;
+    -webkit-appearance: none !important
+}
+
+input[type=search]::-ms-clear {
+    width: 0;
+    height: 0
+}
+
+input,button{
+    outline: 0;
+}
+
+

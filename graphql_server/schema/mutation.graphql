@@ -1,0 +1,4 @@
+type Mutation{
+    addBook(title:String,author:String):Book
+    removeBook(title:String):Book
+}

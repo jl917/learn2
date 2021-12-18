@@ -1,0 +1,9 @@
+{
+    "presets": ["env","react","flow"],
+    "plugins": [
+        "syntax-dynamic-import",
+        "dynamic-import-webpack",
+        "transform-object-rest-spread",
+        ["import", { "libraryName": "antd", "style": "less" }],
+    ]
+}
